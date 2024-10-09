@@ -178,6 +178,11 @@
         </DelphiCompile>
         <DCCReference Include="src\connections\server.connections.interfaces.pas"/>
         <DCCReference Include="src\connections\impl\server.connections.impl.firedac.pas"/>
+        <DCCReference Include="src\entities\server.entities.empresa.pas"/>
+        <DCCReference Include="src\entities\server.entities.endereco.pas"/>
+        <DCCReference Include="src\entities\server.entities.emissorfiscal.pas"/>
+        <DCCReference Include="src\repository\service.repository.interfaces.pas"/>
+        <DCCReference Include="src\repository\impl\service.repository.impl.empresa.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
